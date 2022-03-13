@@ -18,6 +18,7 @@ use TCG\Voyager\Voyager;
 */
 
 
+
 Route::get('/', [SiteController::class,'index']);
 
 Route::get('/lang/{lang}',[SiteController::class,'setlang']);
