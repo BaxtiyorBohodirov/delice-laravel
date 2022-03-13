@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container-fluid
+{
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.719), rgba(0, 128, 0, 0.815));   
+    /* height:100vh;  */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: none;
+    padding:0px;
+    text-align: center;
+    opacity: 0;
+    height: 100vh;
+    overflow: scroll;
+}
+h1
+{
+    color:white;
+    text-shadow: 0px 0px 20px blue;
+    text-align: center;
+}
+input{
+    color:blue;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 30px;
+}
+input:focus,.next:focus{
+    box-shadow: 0px 0px 20px blue;
+    outline: white;
+}
+.next
+{
+    margin-top:30px;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.sanoq
+{
+    margin-bottom: 30px;
+}
+.javoblar
+{
+    color:white;
+    text-shadow: 0px 0px 20px blue;
+    text-align: center;
+    margin-top: 50px;
+}
+#load
+{
+    /* animation-delay: 5s; */
+    animation: load 1s linear infinite;
+}
+.navbar
+{
+    /* top: 0px;
+    left: 0px;
+    position: fixed;
+    top: 0px; */
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+}
+@keyframes load
+{
+    0%{
+        display: flex;
+    }
+    100%{
+        display: none;
+    }
+}
